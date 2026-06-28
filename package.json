@@ -1,0 +1,20 @@
+{
+  "name": "user-crud",
+  "version": "1.0.0",
+  "description": "Express user CRUD, domain-driven (orm -> repository -> service -> controller -> routes)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.23.8"
+  }
+}
